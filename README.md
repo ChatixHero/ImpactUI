@@ -10,7 +10,7 @@ A sleek, modern GUI library for Roblox Lua scripting.
 
 ### Method 1: Loadstring (Recommended)
 ```lua
-local ImpactGUI = loadstring(game:HttpGet("YOUR_RAW_URL_HERE"))()
+local ImpactGUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ChatixHero/ImpactUI/refs/heads/main/main.lua"))()
 ```
 
 ### Method 2: Direct Copy
@@ -22,7 +22,7 @@ Copy the `main.lua` file content and paste it into your script.
 
 ```lua
 -- Load the library
-local ImpactGUI = loadstring(game:HttpGet("YOUR_RAW_URL"))()
+local ImpactGUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ChatixHero/ImpactUI/refs/heads/main/main.lua"))()
 
 -- Create a window
 local Window = ImpactGUI:CreateWindow({
@@ -322,9 +322,10 @@ end)
 
 ```
 ImpactGUI/
-├── main.lua          -- Main library file
+├── LICENSE           -- License
 ├── README.md         -- Documentation
-└── example.lua       -- Example script (optional)
+├── logo.png          -- Logo of Library
+└── main.lua          -- Main library file
 ```
 
 ---
